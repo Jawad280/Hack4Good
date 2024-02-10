@@ -1,17 +1,14 @@
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import requests
-import json
 
-TOKEN = "6356825284:AAGGLIVlV4G2JUAF105CNzQUqYl8hPWNhDE"
-# voluntier_bot
 
-TEST_TOKEN = "6932538410:AAFmQo09aFoLT3MbciPTSe7thD8Kq5GpJ5g"
-# test_jawBot
+TOKEN = "6796765748:AAHrV2YkdNj-kICrYjsQufjU1VZ12pnw3Bk"
 
 bot = telebot.TeleBot(TOKEN)
+
 # https://hack4good.onrender.com
-uri = 'https://hack4good.onrender.com'
+uri = 'http://localhost:8080'
 
 # -------------------------------------------   ATTENDANCE   ----------------------------------------------------
 
